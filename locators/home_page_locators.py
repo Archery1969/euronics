@@ -11,3 +11,7 @@ class HomePageLocators:
         self.postcode_search_button = page.locator("#buyLocalForm").get_by_role("button")
         self.contact_us_link = page.get_by_role("link", name="Contact Us")
         self.contact_us_page_title = "Contact Us | Euronics Site"
+        self.faq_link = page.get_by_role("link", name="FAQs")
+        self.faq_page_title = "FAQs | Euronics Site"
+        self.delivery_link = page.get_by_role("link", name="Delivery & Installation")
+        self.delivery_page = "Terms of Sale | Euronics Site"

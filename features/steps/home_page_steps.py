@@ -61,3 +61,27 @@ def step_impl(context):
 def step_impl(context):
     page: Page = context.page
     expect(page).to_have_title(home_page_locators(page).contact_us_page_title)
+
+
+@when(u'I click the FAQ link')
+def step_impl(context):
+    page: Page = context.page
+    home_page_locators(page).faq_link.click(timeout=global_timeout)
+
+
+@then(u'I should be navigated to the FAQ page')
+def step_impl(context):
+    page: Page = context.page
+    expect(page).to_have_title(home_page_locators(page).faq_page_title)
+
+
+@when(u'I click the Delivery & Installation link')
+def step_impl(context):
+    page: Page = context.page
+    home_page_locators(page).delivery_link.click(timeout=global_timeout)
+
+
+@then(u'I should be navigated to the Delivery & Installation page')
+def step_impl(context):
+    page: Page = context.page
+    expect(page).to_have_title(home_page_locators(page).delivery_page)

@@ -14,3 +14,13 @@ Feature: Verify Footer Links
     Given I am on the home page
     When I click the Contact Us link
     Then I should be navigated to the Contact Us page
+
+  Scenario: Verify FAQ link
+    Given I am on the home page
+    When I click the FAQ link
+    Then I should be navigated to the FAQ page
+
+  Scenario: Verify Delivery & Installation link
+    Given I am on the home page
+    When I click the Delivery & Installation link
+    Then I should be navigated to the Delivery & Installation page
