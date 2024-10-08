@@ -1,6 +1,6 @@
-Feature: Verify Header Links
+Feature: Verify Footer Links
 
-  Scenario: Accept cookies and enter postcode on the home page
+  Background: Accept cookies and enter postcode on the home page
     Given I am on the home page
     And the cookie accept button is visible
     When I click the cookie accept button
@@ -9,3 +9,8 @@ Feature: Verify Header Links
     When I enter a postcode
     And I click the search button
     Then the postcode input should no longer be visible
+
+  Scenario: Verify Contact Us link
+    Given I am on the home page
+    When I click the Contact Us link
+    Then I should be navigated to the Contact Us page
