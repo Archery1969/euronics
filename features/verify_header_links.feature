@@ -4,7 +4,7 @@ Feature: Verify Header Links
     Given I am on the home page
     When I click the cookie accept button
     Then the cookie accept button should be hidden
-    And I see the postcode input
+    And the postcode input should be visible
     When I enter a postcode
     And I click the search button
     Then the postcode input should be hidden

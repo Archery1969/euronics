@@ -21,7 +21,7 @@ def step_impl(context):
     expect(home_page_locators(page).cookie_accept_button).to_be_hidden()
 
 
-@then(u'I see the postcode input')
+@then(u'the postcode input should be visible')
 def step_impl(context):
     page: Page = context.page
     expect(home_page_locators(page).postcode_input).to_be_visible()
