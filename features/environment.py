@@ -5,7 +5,6 @@ from playwright.sync_api import sync_playwright
 
 
 def before_all(context):
-    print("before_all: Starting Playwright setup...")
     try:
         context.driver = sync_playwright().start()
         context.browser = context.driver.chromium.launch(headless=False, slow_mo=1000, channel="chrome")
