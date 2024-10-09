@@ -7,7 +7,8 @@ from utils.helper import global_timeout
 
 @given(u'I am on the home page')
 def step_impl(context):
-    pass
+    home_page = HomePage(context.page)
+    expect(home_page.page).to_have_title(home_page.homepage_title())
 
 
 @given(u'the cookie accept button is visible')

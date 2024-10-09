@@ -8,6 +8,9 @@ class HomePage:
         self.page = page
         self.locators = HomePageLocators(page)
 
+    def homepage_title(self):
+        return self.locators.page_title
+
     def cookie_button_locator(self):
         return self.locators.cookie_accept_button
 
