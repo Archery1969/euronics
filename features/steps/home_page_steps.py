@@ -1,8 +1,7 @@
 from behave import given, when, then
-from playwright.sync_api import expect
 
 from pages.home_page import HomePage
-from utils.helper import global_timeout
+from utils.helper import *
 
 
 @given(u'I am on the home page')
@@ -38,7 +37,7 @@ def step_impl(context):
 @when(u'I enter a postcode')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.postcode_input_locator().fill("BN10 7PU")
+    home_page.postcode_input_locator().fill(context.config.userdata.get("storefront_postcode"))
     home_page.postcode_search_locator().click(timeout=global_timeout)
 
 
