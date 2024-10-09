@@ -1,6 +1,6 @@
 Feature: Verify Footer Links
 
-  Scenario: Accept cookies and enter postcode on the home page
+  Background: Accept cookies and enter postcode on the home page
     Given I am on the home page
     And the cookie accept button is visible
     When I click the cookie accept button
@@ -8,3 +8,8 @@ Feature: Verify Footer Links
     And the postcode search input is visible
     When I enter a postcode
     Then the postcode search input should no longer be visible
+
+  Scenario: Contact us link
+    Given I am on the home page
+    When I click the contact is link
+    Then I am navigated to the contact us page

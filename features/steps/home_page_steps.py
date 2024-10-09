@@ -1,5 +1,6 @@
 from behave import given, when, then
 
+from pages.contact_page import ContactUsPage
 from pages.home_page import HomePage
 from utils.helper import *
 
@@ -7,7 +8,7 @@ from utils.helper import *
 @given(u'I am on the home page')
 def step_impl(context):
     home_page = HomePage(context.page)
-    expect(home_page.page).to_have_title(home_page.homepage_title())
+    expect(home_page.page).to_have_title(home_page.page_title())
 
 
 @given(u'the cookie accept button is visible')
@@ -45,3 +46,15 @@ def step_impl(context):
 def step_impl(context):
     home_page = HomePage(context.page)
     expect(home_page.postcode_input_locator()).to_be_hidden()
+
+
+@when(u'I click the contact is link')
+def step_impl(context):
+    home_page = HomePage(context.page)
+    home_page.contact_us_locator().click(timeout=global_timeout)
+
+
+@then(u'I am navigated to the contact us page')
+def step_impl(context):
+    contact_us_page = ContactUsPage(context.page)
+    expect(contact_us_page.page).to_have_title(contact_us_page.page_title())

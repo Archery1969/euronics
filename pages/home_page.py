@@ -8,7 +8,7 @@ class HomePage:
         self.page = page
         self.locators = HomePageLocators(page)
 
-    def homepage_title(self):
+    def page_title(self):
         return self.locators.page_title
 
     def cookie_button_locator(self):
@@ -19,3 +19,6 @@ class HomePage:
 
     def postcode_search_locator(self):
         return self.locators.postcode_search_button
+
+    def contact_us_locator(self):
+        return self.locators.contact_us_link
