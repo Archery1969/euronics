@@ -27,3 +27,22 @@ def step_impl(context):
 def step_impl(context):
     home_page = HomePage(context.page)
     expect(home_page.cookie_button_locator()).to_be_hidden()
+
+
+@then(u'the postcode search input is visible')
+def step_impl(context):
+    home_page = HomePage(context.page)
+    expect(home_page.postcode_input_locator()).to_be_visible()
+
+
+@when(u'I enter a postcode')
+def step_impl(context):
+    home_page = HomePage(context.page)
+    home_page.postcode_input_locator().fill("BN10 7PU")
+    home_page.postcode_search_locator().click(timeout=global_timeout)
+
+
+@then(u'the postcode search input should no longer be visible')
+def step_impl(context):
+    home_page = HomePage(context.page)
+    expect(home_page.postcode_input_locator()).to_be_hidden()
