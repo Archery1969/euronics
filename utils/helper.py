@@ -2,17 +2,11 @@ import random
 import string
 
 from behave.configuration import Configuration
-from playwright.sync_api import Page, expect
-
-from locators.home_page_locators import HomePageLocators
+from playwright.sync_api import expect
 
 global_timeout = 5000
 
 expect.set_options(timeout=global_timeout)
-
-
-def home_page_locators(page: Page) -> HomePageLocators:
-    return HomePageLocators(page)
 
 
 def get_userdata_value(context, key: str, default=None):
