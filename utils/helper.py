@@ -38,9 +38,14 @@ def generate_user_email(length=12, domain="gmail.com"):
     return username
 
 
-def generate_user_password(length=12):
-    char_set = string.ascii_lowercase + string.ascii_uppercase + string.digits
-    password = random.choice(string.ascii_lowercase)
-    password += ''.join(random.choices(char_set, k=length - 2))
-    password += random.choice(string.ascii_lowercase)
+def generate_random_password(length=12):
+    upper = random.choice(string.ascii_uppercase)
+    lower = random.choice(string.ascii_lowercase)
+    digit = random.choice(string.digits)
+    special = random.choice('!@#$%&*')
+    all_characters = string.ascii_letters + string.digits + '!@#$%&*'
+    remaining_length = length - 4
+    random_chars = ''.join(random.choice(all_characters) for _ in range(remaining_length))
+    password = upper + lower + digit + special + random_chars
+    password = ''.join(random.sample(password, len(password)))
     return password
