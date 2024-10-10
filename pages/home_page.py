@@ -1,7 +1,7 @@
 from playwright.sync_api import Page
 
 from locators.home_page_locators import HomePageLocators
-from utils.actions import perform_action
+from utils.helper import perform_action
 
 
 class HomePage:
