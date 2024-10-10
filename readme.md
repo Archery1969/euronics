@@ -2,6 +2,10 @@
 
 https://www.jetbrains.com/pycharm/download/other.html
 
+# Download and install Allure for windows
+
+https://allurereport.org/docs/install-for-windows/#install-from-an-archive
+
 # Install the pytest-playwright package.
 
 pip install pytest-playwright
