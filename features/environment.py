@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 def before_all(context):
     try:
         context.driver = sync_playwright().start()
-        context.browser = context.driver.chromium.launch(headless=False, slow_mo=1000, channel="chrome")
+        context.browser = context.driver.chromium.launch(headless=False, slow_mo=0, channel="chrome")
         env = context.config.userdata.get("ENV", "dev").lower()
         config_file = f"config/config_{env}.yml"
         with open(config_file, 'r') as file:
