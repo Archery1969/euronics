@@ -1,3 +1,7 @@
+# Download and install Pycharm Community Edition
+
+https://www.jetbrains.com/pycharm/download/other.html
+
 # Install the pytest-playwright package.
 
 pip install pytest-playwright
