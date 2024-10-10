@@ -14,44 +14,44 @@ def step_impl(context):
 @given(u'the cookie accept button is visible')
 def step_impl(context):
     home_page = HomePage(context.page)
-    expect(home_page.cookie_button_locator()).to_be_visible()
+    home_page.cookie_button_locator(action='visible')
 
 
 @when(u'I click the cookie accept button')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.cookie_button_locator().click(timeout=global_timeout)
+    home_page.cookie_button_locator(action='click')
 
 
 @then(u'the cookie accept button should no longer be visible')
 def step_impl(context):
     home_page = HomePage(context.page)
-    expect(home_page.cookie_button_locator()).to_be_hidden()
+    home_page.cookie_button_locator(action='hidden')
 
 
 @then(u'the postcode search input is visible')
 def step_impl(context):
     home_page = HomePage(context.page)
-    expect(home_page.postcode_input_locator()).to_be_visible()
+    home_page.postcode_input_locator(action='visible')
 
 
 @when(u'I enter a postcode')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.postcode_input_locator().fill(context.config.userdata.get("storefront_postcode"))
-    home_page.postcode_search_locator().click(timeout=global_timeout)
+    home_page.postcode_input_locator(action='fill', fill_value=context.config.userdata.get("storefront_postcode"))
+    home_page.postcode_search_locator(action='click')
 
 
 @then(u'the postcode search input should no longer be visible')
 def step_impl(context):
     home_page = HomePage(context.page)
-    expect(home_page.postcode_input_locator()).to_be_hidden()
+    home_page.postcode_input_locator(action='hidden')
 
 
 @when(u'I click the contact is link')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.contact_us_locator().click(timeout=global_timeout)
+    home_page.contact_us_locator(action='click')
 
 
 @then(u'I am navigated to the contact us page')
