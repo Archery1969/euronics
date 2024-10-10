@@ -1,7 +1,7 @@
-from playwright.sync_api import Page, Locator
+from playwright.sync_api import Locator
 
 
-def perform_action(locator: Locator = None, action: str = '', fill_value=None, page: Page = None):
+def perform_action(locator: Locator = None, action: str = '', fill_value=None):
     action = action.lower()
     if action == 'visible' and locator:
         return locator.is_visible()
