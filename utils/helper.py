@@ -15,7 +15,8 @@ def get_userdata_value(context, key: str, default=None):
 
 
 def perform_action(locator: Locator = None, action=None, fill_value=None):
-    action = action.lower()
+    if action is not None:
+        action = action.lower()
     if action == "click" and locator:
         locator.click()
     elif action == "fill" and locator and fill_value:
