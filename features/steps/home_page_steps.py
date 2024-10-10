@@ -20,7 +20,7 @@ def step_impl(context):
 @when(u'I click the cookie accept button')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.cookie_button_locator(action='click')
+    home_page.cookie_button_locator(action="click")
 
 
 @then(u'the cookie accept button should no longer be visible')
@@ -38,8 +38,8 @@ def step_impl(context):
 @when(u'I enter a postcode')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.postcode_input_locator(action='fill', fill_value=context.config.userdata.get("storefront_postcode"))
-    home_page.postcode_search_locator(action='click')
+    home_page.postcode_input_locator(action="fill", fill_value=context.config.userdata.get("storefront_postcode"))
+    home_page.postcode_search_locator(action="click")
 
 
 @then(u'the postcode search input should no longer be visible')
@@ -51,7 +51,7 @@ def step_impl(context):
 @when(u'I click the contact is link')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.contact_us_locator(action='click')
+    home_page.contact_us_locator(action="click")
 
 
 @then(u'I am navigated to the contact us page')
