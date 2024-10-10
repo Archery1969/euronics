@@ -18,9 +18,13 @@ def perform_action(locator: Locator = None, action=None, fill_value=None):
     if action is not None:
         action = action.lower()
     if action == "click" and locator:
-        locator.click()
+        locator.click(timeout=global_timeout)
     elif action == "fill" and locator and fill_value:
-        locator.fill(fill_value)
+        locator.fill(fill_value, timeout=global_timeout)
+    elif action == "type" and locator and fill_value:
+        locator.type(fill_value, timeout=global_timeout)
+    elif action == "press" and locator and fill_value:
+        locator.press(fill_value, timeout=global_timeout)
     else:
         return locator
 
