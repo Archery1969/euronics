@@ -11,12 +11,6 @@ def step_impl(context):
     expect(home_page.page).to_have_title(home_page.page_title())
 
 
-@given(u'the cookie accept button is visible')
-def step_impl(context):
-    home_page = HomePage(context.page)
-    expect(home_page.cookie_button_locator()).to_be_visible()
-
-
 @when(u'I click the cookie accept button')
 def step_impl(context):
     home_page = HomePage(context.page)
@@ -27,12 +21,6 @@ def step_impl(context):
 def step_impl(context):
     home_page = HomePage(context.page)
     expect(home_page.cookie_button_locator()).to_be_hidden()
-
-
-@then(u'the postcode search input is visible')
-def step_impl(context):
-    home_page = HomePage(context.page)
-    expect(home_page.postcode_input_locator()).to_be_visible()
 
 
 @when(u'I enter a postcode')
