@@ -1,6 +1,5 @@
 from behave import given, when, then
 
-from pages.contact_page import ContactPage
 from pages.home_page import HomePage
 from utils.helper import *
 
@@ -34,15 +33,3 @@ def step_impl(context):
 def step_impl(context):
     home_page = HomePage(context.page)
     expect(home_page.postcode_input_locator()).to_be_hidden()
-
-
-@when(u'I click the contact is link')
-def step_impl(context):
-    home_page = HomePage(context.page)
-    home_page.contact_us_locator(action="click")
-
-
-@then(u'I am navigated to the contact us page')
-def step_impl(context):
-    contact_us_page = ContactPage(context.page)
-    expect(contact_us_page.page).to_have_title(contact_us_page.page_title())

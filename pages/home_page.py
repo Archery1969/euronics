@@ -20,6 +20,3 @@ class HomePage:
 
     def postcode_search_locator(self, action=None, fill_value=None):
         return perform_action(self.locators.postcode_search_button, action, fill_value)
-
-    def contact_us_locator(self, action=None, fill_value=None):
-        return perform_action(self.locators.contact_us_link, action, fill_value)
