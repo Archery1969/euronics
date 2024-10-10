@@ -4,9 +4,9 @@ from playwright.sync_api import Locator
 def perform_action(locator: Locator = None, action: str = '', fill_value=None):
     action = action.lower()
     if action == 'visible' and locator:
-        return locator.is_visible()
+        return locator
     elif action == 'hidden' and locator:
-        return locator.is_hidden()
+        return locator
     elif action == 'click' and locator:
         locator.click()
     elif action == 'fill' and locator and fill_value:

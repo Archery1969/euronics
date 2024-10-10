@@ -14,7 +14,7 @@ def step_impl(context):
 @given(u'the cookie accept button is visible')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.cookie_button_locator(action='visible')
+    expect(home_page.cookie_button_locator(action='visible')).to_be_visible()
 
 
 @when(u'I click the cookie accept button')
@@ -26,13 +26,13 @@ def step_impl(context):
 @then(u'the cookie accept button should no longer be visible')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.cookie_button_locator(action='hidden')
+    expect(home_page.cookie_button_locator(action='hidden')).to_be_hidden()
 
 
 @then(u'the postcode search input is visible')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.postcode_input_locator(action='visible')
+    expect(home_page.postcode_input_locator(action='visible')).to_be_visible()
 
 
 @when(u'I enter a postcode')
@@ -45,7 +45,7 @@ def step_impl(context):
 @then(u'the postcode search input should no longer be visible')
 def step_impl(context):
     home_page = HomePage(context.page)
-    home_page.postcode_input_locator(action='hidden')
+    expect(home_page.postcode_input_locator(action='hidden')).to_be_hidden()
 
 
 @when(u'I click the contact is link')
