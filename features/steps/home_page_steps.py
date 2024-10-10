@@ -1,6 +1,6 @@
 from behave import given, when, then
 
-from pages.contact_page import ContactUsPage
+from pages.contact_page import ContactPage
 from pages.home_page import HomePage
 from utils.helper import *
 
@@ -44,5 +44,5 @@ def step_impl(context):
 
 @then(u'I am navigated to the contact us page')
 def step_impl(context):
-    contact_us_page = ContactUsPage(context.page)
+    contact_us_page = ContactPage(context.page)
     expect(contact_us_page.page).to_have_title(contact_us_page.page_title())
