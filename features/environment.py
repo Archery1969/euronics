@@ -1,5 +1,6 @@
 import allure
 import yaml
+
 from playwright.sync_api import sync_playwright
 
 
@@ -9,7 +10,9 @@ def before_all(context):
         config_file = f"config/config_{env}.yml"
         with open(config_file, 'r') as file:
             config_data = yaml.safe_load(file)
-        context.config.userdata.update(config_data)
+        for key, value in config_data.items():
+            if key not in context.config.userdata:
+                context.config.userdata[key] = value
         headless = context.config.userdata.get("headless", True)
         if isinstance(headless, str):
             headless = headless.lower() == "true"
