@@ -14,19 +14,23 @@ def get_userdata_value(context, key: str, default=None):
     return config.userdata.get(key, default)
 
 
-def perform_action(locator: Locator = None, action=None, fill_value=None):
-    if action is not None:
-        action = action.lower()
-    if action == "click" and locator:
+def perform_action(locator: Locator = None, action: str = None, fill_value: str = None):
+    if not locator:
+        raise ValueError("Locator must be provided.")
+    if action is None:
+        return locator
+    action = action.lower()
+    if action == "click":
         locator.click(timeout=global_timeout)
-    elif action == "fill" and locator and fill_value:
+    elif action == "fill" and fill_value:
         locator.fill(fill_value, timeout=global_timeout)
-    elif action == "type" and locator and fill_value:
+    elif action == "type" and fill_value:
         locator.type(fill_value, timeout=global_timeout)
-    elif action == "press" and locator and fill_value:
+    elif action == "press" and fill_value:
         locator.press(fill_value, timeout=global_timeout)
     else:
-        return locator
+        raise ValueError(f"Invalid action '{action}' or missing fill_value for action '{action}'")
+    return locator
 
 
 def generate_user_email(length=12, domain="gmail.com"):
