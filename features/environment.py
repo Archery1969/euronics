@@ -29,7 +29,7 @@ def before_scenario(context, scenario):
         if storefront_url:
             context.page.goto(storefront_url)
         else:
-            raise ValueError("Storefront URL not found in configuration.")
+            raise AssertionError("Storefront URL not found in configuration.")
     except Exception as e:
         raise AssertionError(f"Error in before_scenario setup: {e}")
 
@@ -44,7 +44,7 @@ def after_step(context, step):
             screenshot_bytes = context.page.screenshot()
             allure.attach(screenshot_bytes, name="screenshot", attachment_type=allure.attachment_type.PNG)
         except Exception as e:
-            print(f"Error taking screenshot: {e}")
+            raise AssertionError
 
 
 def after_scenario(context, scenario):
@@ -52,7 +52,7 @@ def after_scenario(context, scenario):
         if hasattr(context, 'page'):
             context.page.close()
     except Exception as e:
-        print(f"Error closing the page after scenario: {e}")
+        raise AssertionError
 
 
 def after_all(context):
@@ -62,4 +62,4 @@ def after_all(context):
         if hasattr(context, 'driver'):
             context.driver.stop()
     except Exception as e:
-        print(f"Error in after_all teardown: {e}")
+        raise AssertionError
