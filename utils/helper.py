@@ -16,7 +16,7 @@ def get_userdata_value(context, key: str, default=None):
 
 def perform_action(locator: Locator = None, action: str = None, fill_value: str = None):
     if not locator:
-        raise ValueError("Locator must be provided.")
+        raise AssertionError("Locator must be provided.")
     if action is None:
         return locator
     action = action.lower()
@@ -29,7 +29,7 @@ def perform_action(locator: Locator = None, action: str = None, fill_value: str 
     elif action == "press" and fill_value:
         locator.press(fill_value, timeout=global_timeout)
     else:
-        raise ValueError(f"Invalid action '{action}' or missing fill_value for action '{action}'")
+        raise AssertionError(f"Invalid action '{action}' or missing fill_value for action '{action}'")
     return locator
 
 
