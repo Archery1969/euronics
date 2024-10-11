@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 def before_all(context):
     try:
         context.driver = sync_playwright().start()
-        context.browser = context.driver.chromium.launch(headless=False, slow_mo=0, channel="chrome")
+        context.browser = context.driver.chromium.launch(headless=False, slow_mo=0, channel="chrome", args=["--start-maximized"])
         env = context.config.userdata.get("ENV", "dev").lower()
         config_file = f"config/config_{env}.yml"
         with open(config_file, 'r') as file:
@@ -18,7 +18,7 @@ def before_all(context):
 
 def before_scenario(context, scenario):
     try:
-        context.page = context.browser.new_page()
+        context.page = context.browser.new_page(no_viewport=True)
         storefront_url = context.config.userdata.get("storefront_url")
         if storefront_url:
             context.page.goto(storefront_url)
