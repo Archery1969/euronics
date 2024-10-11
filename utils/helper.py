@@ -33,7 +33,7 @@ def perform_action(locator: Locator = None, action: str = None, fill_value: str 
     return locator
 
 
-def generate_user_email(length=12, domain="gmail.com"):
+def generate_email(length=12, domain="gmail.com"):
     char_set = string.ascii_lowercase + string.digits
     username = random.choice(string.ascii_lowercase)
     username += ''.join(random.choices(char_set, k=length - 2))
@@ -42,7 +42,7 @@ def generate_user_email(length=12, domain="gmail.com"):
     return username
 
 
-def generate_random_password(length=12):
+def generate_password(length=12):
     upper = random.choice(string.ascii_uppercase)
     lower = random.choice(string.ascii_lowercase)
     digit = random.choice(string.digits)
