@@ -46,6 +46,16 @@ def step_impl(context):
     pass
 
 
+@when(u'I choose Credit Card as the payment method')
+def step_impl(context):
+    pass
+
+
+@when(u'I enter valid Credit Card details')
+def step_impl(context):
+    pass
+
+
 @when(u'I choose Debit Card as the payment method')
 def step_impl(context):
     pass

@@ -1,1 +1,143 @@
-{"name": "Guest Checkout using PayPal", "status": "passed", "steps": [{"name": "Given I am on the home page", "status": "passed", "start": 1728743007508, "stop": 1728743007533}, {"name": "When I click the cookie accept button", "status": "passed", "start": 1728743007533, "stop": 1728743007610}, {"name": "Then the cookie accept button should no longer be visible", "status": "passed", "start": 1728743007610, "stop": 1728743008090}, {"name": "When I enter a postcode", "status": "passed", "start": 1728743008090, "stop": 1728743009123}, {"name": "Then the postcode search input should no longer be visible", "status": "passed", "start": 1728743009123, "stop": 1728743011204}, {"name": "Given I am on the homepage", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "When I search for a product by name or category", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I select a product from the search results", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I view the product details page", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I add the product to my cart", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I view my shopping cart", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I proceed to checkout as a guest", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I enter my personal information (name, email, phone)", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I enter my delivery address", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I choose PayPal as the payment method", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I enter valid PayPal details", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I review my order summary", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "And I place the order", "status": "passed", "start": 1728743011204, "stop": 1728743011204}, {"name": "Then I should be redirected to the order confirmation page", "status": "passed", "start": 1728743011204, "stop": 1728743011204}], "start": 1728743006493, "stop": 1728743011264, "uuid": "8a8a718c-e514-424e-9a36-38a84836c28c", "historyId": "ef610d21ea3e6df0a08b043488bb87f3", "fullName": "Checkout Tests: Guest Checkout using PayPal", "labels": [{"name": "severity", "value": "normal"}, {"name": "feature", "value": "Checkout Tests"}, {"name": "framework", "value": "behave"}, {"name": "language", "value": "cpython3"}]}
+{
+  "name": "Guest Checkout using PayPal",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given I am on the home page",
+      "status": "passed",
+      "start": 1728743007508,
+      "stop": 1728743007533
+    },
+    {
+      "name": "When I click the cookie accept button",
+      "status": "passed",
+      "start": 1728743007533,
+      "stop": 1728743007610
+    },
+    {
+      "name": "Then the cookie accept button should no longer be visible",
+      "status": "passed",
+      "start": 1728743007610,
+      "stop": 1728743008090
+    },
+    {
+      "name": "When I enter a postcode",
+      "status": "passed",
+      "start": 1728743008090,
+      "stop": 1728743009123
+    },
+    {
+      "name": "Then the postcode search input should no longer be visible",
+      "status": "passed",
+      "start": 1728743009123,
+      "stop": 1728743011204
+    },
+    {
+      "name": "Given I am on the homepage",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "When I search for a product by name or category",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I select a product from the search results",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I view the product details page",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I add the product to my cart",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I view my shopping cart",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I proceed to checkout as a guest",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I enter my personal information (name, email, phone)",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I enter my delivery address",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I choose PayPal as the payment method",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I enter valid PayPal details",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I review my order summary",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "And I place the order",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    },
+    {
+      "name": "Then I should be redirected to the order confirmation page",
+      "status": "passed",
+      "start": 1728743011204,
+      "stop": 1728743011204
+    }
+  ],
+  "start": 1728743006493,
+  "stop": 1728743011264,
+  "uuid": "8a8a718c-e514-424e-9a36-38a84836c28c",
+  "historyId": "ef610d21ea3e6df0a08b043488bb87f3",
+  "fullName": "Checkout Tests: Guest Checkout using PayPal",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Checkout Tests"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

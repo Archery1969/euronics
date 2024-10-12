@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8aa73318-bf6c-4905-8e93-7e8caf487405" name="Changes" comment="master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3aa47000-60a1-4a4e-9c04-3d3fc8fe917e-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/3aa47000-60a1-4a4e-9c04-3d3fc8fe917e-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4aa3e263-3321-44ba-83da-7945e1d3ede8-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/4aa3e263-3321-44ba-83da-7945e1d3ede8-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/54cbeb86-a554-48ec-8ea0-4fbca9e9d711-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/54cbeb86-a554-48ec-8ea0-4fbca9e9d711-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c055dc14-0ce0-4d5c-ab0b-ebb7b3183042-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/c055dc14-0ce0-4d5c-ab0b-ebb7b3183042-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/checkout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/checkout_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/checkout_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/helper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,22 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728408263903</updated>
-    </task>
-    <task id="LOCAL-00025" summary="master">
-      <option name="closed" value="true" />
-      <created>1728490223380</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1728490223380</updated>
-    </task>
-    <task id="LOCAL-00026" summary="master">
-      <option name="closed" value="true" />
-      <created>1728507948085</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1728507948085</updated>
     </task>
     <task id="LOCAL-00027" summary="master">
       <option name="closed" value="true" />
@@ -476,7 +468,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728735033771</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="master">
+      <option name="closed" value="true" />
+      <created>1728742966569</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1728742966569</updated>
+    </task>
+    <task id="LOCAL-00075" summary="master">
+      <option name="closed" value="true" />
+      <created>1728743161403</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1728743161410</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
