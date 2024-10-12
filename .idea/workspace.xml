@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aa73318-bf6c-4905-8e93-7e8caf487405" name="Changes" comment="master" />
+    <list default="true" id="8aa73318-bf6c-4905-8e93-7e8caf487405" name="Changes" comment="master">
+      <change afterPath="$PROJECT_DIR$/features/account_tests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/basket_tests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/footer_link_tests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/product_tests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/registration_tests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/shortlist_tests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/storefinder_tests.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,14 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728408263903</updated>
-    </task>
-    <task id="LOCAL-00033" summary="master">
-      <option name="closed" value="true" />
-      <created>1728558480365</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1728558480365</updated>
     </task>
     <task id="LOCAL-00034" summary="master">
       <option name="closed" value="true" />
@@ -474,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728750437178</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="master">
+      <option name="closed" value="true" />
+      <created>1728754477556</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1728754477556</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
