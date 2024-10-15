@@ -1,0 +1,83 @@
+{
+  "name": "Navigate to shortlist page from header",
+  "status": "broken",
+  "statusDetails": {
+    "message": "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'I click on the \"shortlist\" header link')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When I click on the \"shortlist\" header link')\n\n"
+  },
+  "steps": [
+    {
+      "name": "Given I am on the home page",
+      "status": "passed",
+      "start": 1728998592631,
+      "stop": 1728998592677
+    },
+    {
+      "name": "When I click the cookie accept button",
+      "status": "passed",
+      "start": 1728998592677,
+      "stop": 1728998592841
+    },
+    {
+      "name": "Then the cookie accept button should no longer be visible",
+      "status": "passed",
+      "start": 1728998592841,
+      "stop": 1728998593844
+    },
+    {
+      "name": "When I enter a postcode",
+      "status": "passed",
+      "start": 1728998593844,
+      "stop": 1728998594715
+    },
+    {
+      "name": "Then the postcode search input should no longer be visible",
+      "status": "passed",
+      "start": 1728998594715,
+      "stop": 1728998595849
+    },
+    {
+      "name": "Given I am on the homepage",
+      "status": "passed",
+      "start": 1728998595849,
+      "stop": 1728998595955
+    },
+    {
+      "name": "When I click on the \"shortlist\" header link",
+      "status": "broken",
+      "statusDetails": {
+        "message": "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'I click on the \"shortlist\" header link')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When I click on the \"shortlist\" header link')\n\n"
+      },
+      "start": 1728998595955,
+      "stop": 1728998595955
+    },
+    {
+      "name": "Then I should be taken to the shortlist page",
+      "status": "skipped",
+      "start": 1728998596040,
+      "stop": 1728998596040
+    }
+  ],
+  "start": 1728998591146,
+  "stop": 1728998596040,
+  "uuid": "38c74e1c-af2b-4a13-82fe-a8c7e16628fc",
+  "historyId": "df4957b8e6dc517c553dc499f592be13",
+  "fullName": "Home Page Navigation and Actions: Navigate to shortlist page from header",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Home Page Navigation and Actions"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Navigate to Cookie Policy page from footer",
+  "status": "broken",
+  "statusDetails": {
+    "message": "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'I click on the \"cookie policy\" footer link')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When I click on the \"cookie policy\" footer link')\n\n"
+  },
+  "steps": [
+    {
+      "name": "Given I am on the home page",
+      "status": "passed",
+      "start": 1728998610669,
+      "stop": 1728998610720
+    },
+    {
+      "name": "When I click the cookie accept button",
+      "status": "passed",
+      "start": 1728998610720,
+      "stop": 1728998610917
+    },
+    {
+      "name": "Then the cookie accept button should no longer be visible",
+      "status": "passed",
+      "start": 1728998610917,
+      "stop": 1728998611530
+    },
+    {
+      "name": "When I enter a postcode",
+      "status": "passed",
+      "start": 1728998611530,
+      "stop": 1728998613085
+    },
+    {
+      "name": "Then the postcode search input should no longer be visible",
+      "status": "passed",
+      "start": 1728998613085,
+      "stop": 1728998613597
+    },
+    {
+      "name": "Given I am on the homepage",
+      "status": "passed",
+      "start": 1728998613597,
+      "stop": 1728998613614
+    },
+    {
+      "name": "When I click on the \"cookie policy\" footer link",
+      "status": "broken",
+      "statusDetails": {
+        "message": "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'I click on the \"cookie policy\" footer link')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When I click on the \"cookie policy\" footer link')\n\n"
+      },
+      "start": 1728998613614,
+      "stop": 1728998613614
+    },
+    {
+      "name": "Then I should see the Cookie Policy page",
+      "status": "skipped",
+      "start": 1728998613688,
+      "stop": 1728998613688
+    }
+  ],
+  "start": 1728998609091,
+  "stop": 1728998613688,
+  "uuid": "3a7f166f-bcba-4da4-b1ce-ecb694821698",
+  "historyId": "04171a0bb69573bd8e0db3de554428c9",
+  "fullName": "Home Page Navigation and Actions: Navigate to Cookie Policy page from footer",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Home Page Navigation and Actions"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Add product to shortlist",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: Page title expected to be 'Product Details'\nActual value: Euronics Site | Buy Home and Kitchen Appliances Online | Euronics \nCall log:\nPageAssertions.to_have_title with timeout 5000ms\n  - waiting for locator(\":root\")\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n\n",
+    "trace": "  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\product_page_steps.py\", line 10, in step_impl\n    expect(product_page.page).to_have_title(product_page.page_title())\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\sync_api\\_generated.py\", line 18448, in to_have_title\n    self._sync(\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 103, in to_have_title\n    await self._expect_impl(\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 74, in _expect_impl\n    raise AssertionError(\n"
+  },
+  "steps": [
+    {
+      "name": "Given I am on the home page",
+      "status": "passed",
+      "start": 1728998648000,
+      "stop": 1728998648026
+    },
+    {
+      "name": "When I click the cookie accept button",
+      "status": "passed",
+      "start": 1728998648026,
+      "stop": 1728998648335
+    },
+    {
+      "name": "Then the cookie accept button should no longer be visible",
+      "status": "passed",
+      "start": 1728998648335,
+      "stop": 1728998649094
+    },
+    {
+      "name": "When I enter a postcode",
+      "status": "passed",
+      "start": 1728998649094,
+      "stop": 1728998650195
+    },
+    {
+      "name": "Then the postcode search input should no longer be visible",
+      "status": "passed",
+      "start": 1728998650195,
+      "stop": 1728998651572
+    },
+    {
+      "name": "Given I am on the product details page",
+      "status": "failed",
+      "statusDetails": {
+        "message": "AssertionError: Page title expected to be 'Product Details'\nActual value: Euronics Site | Buy Home and Kitchen Appliances Online | Euronics \nCall log:\nPageAssertions.to_have_title with timeout 5000ms\n  - waiting for locator(\":root\")\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n\n",
+        "trace": "  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\product_page_steps.py\", line 10, in step_impl\n    expect(product_page.page).to_have_title(product_page.page_title())\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\sync_api\\_generated.py\", line 18448, in to_have_title\n    self._sync(\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 103, in to_have_title\n    await self._expect_impl(\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 74, in _expect_impl\n    raise AssertionError(\n"
+      },
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "491fd232-0fa1-4fde-8ca3-52b43801225e-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1728998651572,
+      "stop": 1728998656852
+    },
+    {
+      "name": "When I add the product to the shortlist",
+      "status": "skipped",
+      "start": 1728998656938,
+      "stop": 1728998656938
+    },
+    {
+      "name": "Then the product should be added to the shortlist",
+      "status": "skipped",
+      "start": 1728998656938,
+      "stop": 1728998656938
+    }
+  ],
+  "start": 1728998647040,
+  "stop": 1728998656938,
+  "uuid": "b7340ce9-a7d9-4273-91f4-31f7dbeae18b",
+  "historyId": "1185727e61fe9c7e6c7d1945d2268834",
+  "fullName": "Product Page Actions: Add product to shortlist",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Product Page Actions"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

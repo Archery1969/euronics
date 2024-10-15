@@ -1,0 +1,101 @@
+{
+  "name": "Enter delivery address and select date",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: Page title expected to be 'Checkout Page'\nActual value: Euronics Site | Buy Home and Kitchen Appliances Online | Euronics \nCall log:\nPageAssertions.to_have_title with timeout 5000ms\n  - waiting for locator(\":root\")\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n\n",
+    "trace": "  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\checkout_loggedin_page_steps.py\", line 18, in step_impl\n    expect(checkout_page.page).to_have_title(checkout_page.checkout_page_title())\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\sync_api\\_generated.py\", line 18448, in to_have_title\n    self._sync(\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 103, in to_have_title\n    await self._expect_impl(\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 74, in _expect_impl\n    raise AssertionError(\n"
+  },
+  "steps": [
+    {
+      "name": "Given I am on the home page",
+      "status": "passed",
+      "start": 1728998558899,
+      "stop": 1728998558924
+    },
+    {
+      "name": "When I click the cookie accept button",
+      "status": "passed",
+      "start": 1728998558924,
+      "stop": 1728998559086
+    },
+    {
+      "name": "Then the cookie accept button should no longer be visible",
+      "status": "passed",
+      "start": 1728998559086,
+      "stop": 1728998560387
+    },
+    {
+      "name": "When I enter a postcode",
+      "status": "passed",
+      "start": 1728998560387,
+      "stop": 1728998560703
+    },
+    {
+      "name": "Then the postcode search input should no longer be visible",
+      "status": "passed",
+      "start": 1728998560703,
+      "stop": 1728998562738
+    },
+    {
+      "name": "Given I am on the checkout page as a logged-in user",
+      "status": "failed",
+      "statusDetails": {
+        "message": "AssertionError: Page title expected to be 'Checkout Page'\nActual value: Euronics Site | Buy Home and Kitchen Appliances Online | Euronics \nCall log:\nPageAssertions.to_have_title with timeout 5000ms\n  - waiting for locator(\":root\")\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n  -   locator resolved to <html lang=\"en\">…</html>\n  -   unexpected value \"Euronics Site | Buy Home and Kitchen Appliances Online | Euronics\"\n\n",
+        "trace": "  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\checkout_loggedin_page_steps.py\", line 18, in step_impl\n    expect(checkout_page.page).to_have_title(checkout_page.checkout_page_title())\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\sync_api\\_generated.py\", line 18448, in to_have_title\n    self._sync(\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 103, in to_have_title\n    await self._expect_impl(\n  File \"C:\\Users\\markj\\PycharmProjects\\euronics\\.venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py\", line 74, in _expect_impl\n    raise AssertionError(\n"
+      },
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "7a041385-6b82-48ae-902f-592c2741f923-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1728998562738,
+      "stop": 1728998567995
+    },
+    {
+      "name": "When I select my saved delivery address",
+      "status": "skipped",
+      "start": 1728998568068,
+      "stop": 1728998568068
+    },
+    {
+      "name": "And I select a delivery date",
+      "status": "skipped",
+      "start": 1728998568068,
+      "stop": 1728998568068
+    },
+    {
+      "name": "Then the delivery details should be saved",
+      "status": "broken",
+      "statusDetails": {
+        "message": "\nYou can implement step definitions for undefined steps with these snippets:\n\n@then(u'the delivery details should be saved')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: Then the delivery details should be saved')\n\n"
+      },
+      "start": 1728998568068,
+      "stop": 1728998568068
+    }
+  ],
+  "start": 1728998557832,
+  "stop": 1728998568068,
+  "uuid": "ff4849ea-900c-40f4-8d4b-b9721534e31a",
+  "historyId": "e22845a91fb2ee287cc3c5f688620eb5",
+  "fullName": "Logged-In User Checkout: Enter delivery address and select date",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Logged-In User Checkout"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

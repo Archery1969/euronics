@@ -1,0 +1,83 @@
+{
+  "name": "Navigate to store finder page from header",
+  "status": "broken",
+  "statusDetails": {
+    "message": "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'I click on the \"store finder\" header link')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When I click on the \"store finder\" header link')\n\n"
+  },
+  "steps": [
+    {
+      "name": "Given I am on the home page",
+      "status": "passed",
+      "start": 1728998588253,
+      "stop": 1728998588331
+    },
+    {
+      "name": "When I click the cookie accept button",
+      "status": "passed",
+      "start": 1728998588331,
+      "stop": 1728998588470
+    },
+    {
+      "name": "Then the cookie accept button should no longer be visible",
+      "status": "passed",
+      "start": 1728998588471,
+      "stop": 1728998588982
+    },
+    {
+      "name": "When I enter a postcode",
+      "status": "passed",
+      "start": 1728998588982,
+      "stop": 1728998590601
+    },
+    {
+      "name": "Then the postcode search input should no longer be visible",
+      "status": "passed",
+      "start": 1728998590601,
+      "stop": 1728998591065
+    },
+    {
+      "name": "Given I am on the homepage",
+      "status": "passed",
+      "start": 1728998591065,
+      "stop": 1728998591079
+    },
+    {
+      "name": "When I click on the \"store finder\" header link",
+      "status": "broken",
+      "statusDetails": {
+        "message": "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'I click on the \"store finder\" header link')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When I click on the \"store finder\" header link')\n\n"
+      },
+      "start": 1728998591079,
+      "stop": 1728998591079
+    },
+    {
+      "name": "Then I should be taken to the store finder page",
+      "status": "skipped",
+      "start": 1728998591144,
+      "stop": 1728998591144
+    }
+  ],
+  "start": 1728998586771,
+  "stop": 1728998591144,
+  "uuid": "c3e09602-7efc-4e7b-95cd-ab3d1dd818cd",
+  "historyId": "4c0d79832a424b7adb58367e2d277d87",
+  "fullName": "Home Page Navigation and Actions: Navigate to store finder page from header",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Home Page Navigation and Actions"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}
