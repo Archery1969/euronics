@@ -5,14 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aa73318-bf6c-4905-8e93-7e8caf487405" name="Changes" comment="master">
-      <change afterPath="$PROJECT_DIR$/features/steps/account_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/basket_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/checkout_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/login_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/product_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/registration_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/shortlist_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/storefinder_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/account_tests.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/basket_tests.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/checkout_tests.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/footer_tests.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/product_tests.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/registration_tests.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/shortlist_tests.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/account_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/basket_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/checkout_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/footer_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/product_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/registration_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/shortlist_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/storefinder_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/storefinder_tests.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/account_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/account_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/basket_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/basket_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/checkout_page_locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/home_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/home_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/login_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/login_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/product_listing_page_locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/product_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/product_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/registration_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/registration_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/shortlist_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/shortlist_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/storefinder_page_locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/basket_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/checkout_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product_listing_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shortlist_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shortlist_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/storefinder_page.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,38 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728408263903</updated>
-    </task>
-    <task id="LOCAL-00035" summary="master">
-      <option name="closed" value="true" />
-      <created>1728558902586</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1728558902586</updated>
-    </task>
-    <task id="LOCAL-00036" summary="master">
-      <option name="closed" value="true" />
-      <created>1728559836972</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1728559836972</updated>
-    </task>
-    <task id="LOCAL-00037" summary="master">
-      <option name="closed" value="true" />
-      <created>1728560138170</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1728560138170</updated>
-    </task>
-    <task id="LOCAL-00038" summary="master">
-      <option name="closed" value="true" />
-      <created>1728560278703</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1728560278703</updated>
     </task>
     <task id="LOCAL-00039" summary="master">
       <option name="closed" value="true" />
@@ -483,7 +480,39 @@
       <option name="project" value="LOCAL" />
       <updated>1728754685495</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="master">
+      <option name="closed" value="true" />
+      <created>1728754793263</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1728754793263</updated>
+    </task>
+    <task id="LOCAL-00085" summary="master">
+      <option name="closed" value="true" />
+      <created>1728754900296</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1728754900296</updated>
+    </task>
+    <task id="LOCAL-00086" summary="master">
+      <option name="closed" value="true" />
+      <created>1728754963620</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1728754963620</updated>
+    </task>
+    <task id="LOCAL-00087" summary="master">
+      <option name="closed" value="true" />
+      <created>1728754986423</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1728754986423</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
