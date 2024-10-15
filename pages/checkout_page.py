@@ -1,6 +1,6 @@
 from playwright.sync_api import Page
 
-from locators.checkout_guest_page_locators import CheckoutGuestPageLocators
+from locators.checkout_page_locators import CheckoutGuestPageLocators
 from utils.helper import perform_action
 
 
