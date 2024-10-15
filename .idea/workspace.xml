@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aa73318-bf6c-4905-8e93-7e8caf487405" name="Changes" comment="master">
-      <change afterPath="$PROJECT_DIR$/features/frontend_tests.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/frontend_steps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/account_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/basket_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/checkout_guest_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/checkout_loggedin_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/home_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/login_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/product_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/registration_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/shortlist_page.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/account_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/basket_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/checkout_guest_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/checkout_loggedin_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/common_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/home_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/login_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/product_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/registration_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/shortlist_page_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/basket_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/checkout_guest_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkout_guest_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/checkout_loggedin_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkout_loggedin_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shortlist_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shortlist_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/helper.py" afterDir="false" />
-    </list>
+    <list default="true" id="8aa73318-bf6c-4905-8e93-7e8caf487405" name="Changes" comment="master" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,14 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728408263903</updated>
-    </task>
-    <task id="LOCAL-00042" summary="master">
-      <option name="closed" value="true" />
-      <created>1728561951356</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1728561951356</updated>
     </task>
     <task id="LOCAL-00043" summary="master">
       <option name="closed" value="true" />
@@ -507,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728998902224</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="master">
+      <option name="closed" value="true" />
+      <created>1729028266594</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1729028266594</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
