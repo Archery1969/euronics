@@ -1,4 +1,4 @@
-Feature: Website Tests
+Feature: Frontend Tests
 
   Background: Accept cookies and enter postcode on the home page
     Given I am on the home page
