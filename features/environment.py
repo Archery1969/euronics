@@ -6,8 +6,8 @@ from playwright.sync_api import sync_playwright
 
 def before_all(context):
     try:
-        env = context.config.userdata.get("STG", "stg").lower()
-        config_file = f"config/config_{env}.yml"
+        env = context.config.userdata.get("STAGING", "staging").lower()
+        config_file = f"config/{env}.yml"
         with open(config_file, 'r') as file:
             config_data = yaml.safe_load(file)
         for key, value in config_data.items():
