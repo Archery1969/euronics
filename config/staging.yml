@@ -9,3 +9,18 @@ storefront_url: https://www.euronics.co.uk/
 storefront_postcode: BN10 7PU
 storefront_username: mark.johnson@kps.com
 storefront_password: Thinkpad1969!
+
+# Hybris
+hybris_url: https://s.admin.euronics.co.uk/backoffice/login
+hybris_username: admin
+hybris_password: nimda
+
+# Admin Console
+hac_url: https://s.admin.euronics.co.uk/hac/login
+hac_username: admin
+hac_password: nimda
+
+# Smartedit
+smartedit_url: https://s.admin.euronics.co.uk/smartedit/
+smartedit_username: admin
+smartedit_password: nimda
