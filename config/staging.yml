@@ -5,5 +5,7 @@ channel: chrome
 timeout: 5000
 
 # Storefront
-storefront_url: "https://www.euronics.co.uk/"
-storefront_postcode: "BN10 7PU"
+storefront_url: https://www.euronics.co.uk/
+storefront_postcode: BN10 7PU
+storefront_username: mark.johnson@kps.com
+storefront_password: Thinkpad1969!
