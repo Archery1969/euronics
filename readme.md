@@ -28,11 +28,13 @@ pip install allure-behave
 
 # Execute Behave tests with a specified environment.
 
-behave -D ENV=stg
+behave -D ENV=staging headless=false
+or
+behave -D ENV=staging headless=true
 
 # Generate a single-file Allure test report.
 
-allure generate --single-file --clean --name "Dreams Test Report"
+allure generate --single-file --clean --name "Euronics Test Report"
 
 # Open the Allure test report.
 
