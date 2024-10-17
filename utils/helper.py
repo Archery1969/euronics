@@ -1,10 +1,24 @@
+import os
 import random
 import string
 
+import yaml
 from behave.configuration import Configuration
 from playwright.sync_api import Locator, expect
 
-global_timeout = 5000
+
+def load_timeout_from_yaml():
+    env = os.getenv("STAGING", "staging").lower()
+    yaml_file = f"config/{env}.yml"
+    try:
+        with open(yaml_file, "r") as file:
+            config_data = yaml.safe_load(file)
+        return config_data.get("timeout", 5000)
+    except Exception as e:
+        raise AssertionError(e)
+
+
+global_timeout = load_timeout_from_yaml()
 
 expect.set_options(timeout=global_timeout)
 
