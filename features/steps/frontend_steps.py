@@ -6,8 +6,8 @@ from utils.helper import *
 
 @given(u'I am on the home page')
 def step_impl(context):
-    context.page.goto(context.config.userdata.get("storefront_url"))
     home_page = HomePage(context.page)
+    home_page.navigate_to_storefront(context.config.userdata.get("storefront_url"))
     expect(home_page.page).to_have_title(home_page.page_title())
 
 

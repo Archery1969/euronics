@@ -9,6 +9,9 @@ class HomePage:
         self.page = page
         self.locators = HomePageLocators(page)
 
+    def navigate_to_storefront(self, url: str):
+        self.page.goto(url)
+
     def page_title(self, action: str = None, fill_value: str = None):
         return perform_action(self.locators.page_title, action, fill_value)
 
