@@ -19,23 +19,21 @@ def before_all(context):
         context.driver = sync_playwright().start()
         context.browser = context.driver.chromium.launch(headless=headless, slow_mo=0, channel="chrome", args=["--start-maximized"])
     except Exception as e:
-        raise AssertionError(f"Error in before_all setup: {e}")
+        raise AssertionError(e)
 
 
 def before_scenario(context, scenario):
     try:
         context.page = context.browser.new_page(no_viewport=True)
-        storefront_url = context.config.userdata.get("storefront_url")
-        if storefront_url:
-            context.page.goto(storefront_url)
-        else:
-            raise AssertionError("Storefront URL not found in configuration.")
     except Exception as e:
-        raise AssertionError(f"Error in before_scenario setup: {e}")
+        raise AssertionError(e)
 
 
 def before_step(context, step):
-    context.step = step
+    try:
+        context.step = step
+    except Exception as e:
+        raise AssertionError(e)
 
 
 def after_step(context, step):
@@ -44,7 +42,7 @@ def after_step(context, step):
             screenshot_bytes = context.page.screenshot()
             allure.attach(screenshot_bytes, name="screenshot", attachment_type=allure.attachment_type.PNG)
         except Exception as e:
-            raise AssertionError
+            raise AssertionError(e)
 
 
 def after_scenario(context, scenario):
@@ -52,7 +50,7 @@ def after_scenario(context, scenario):
         if hasattr(context, 'page'):
             context.page.close()
     except Exception as e:
-        raise AssertionError
+        raise AssertionError(e)
 
 
 def after_all(context):
@@ -62,4 +60,4 @@ def after_all(context):
         if hasattr(context, 'driver'):
             context.driver.stop()
     except Exception as e:
-        raise AssertionError
+        raise AssertionError(e)
