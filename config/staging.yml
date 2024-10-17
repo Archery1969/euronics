@@ -1,3 +1,5 @@
 headless: true
+slow_mo: 0
+channel: chrome
 storefront_url: "https://www.euronics.co.uk/"
 storefront_postcode: "BN10 7PU"

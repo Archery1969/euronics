@@ -14,10 +14,12 @@ def before_all(context):
             if key not in context.config.userdata:
                 context.config.userdata[key] = value
         headless = context.config.userdata.get("headless", True)
+        slow_mo = context.config.userdata.get("slow_mo")
+        channel = context.config.userdata.get("channel")
         if isinstance(headless, str):
             headless = headless.lower() == "true"
         context.driver = sync_playwright().start()
-        context.browser = context.driver.chromium.launch(headless=headless, slow_mo=0, channel="chrome", args=["--start-maximized"])
+        context.browser = context.driver.chromium.launch(headless=headless, slow_mo=slow_mo, channel=channel, args=["--start-maximized"])
     except Exception as e:
         raise AssertionError(e)
 
