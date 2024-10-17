@@ -9,6 +9,10 @@ storefront_url: https://www.euronics.co.uk/
 storefront_postcode: BN10 7PU
 storefront_username: mark.johnson@kps.com
 storefront_password: Thinkpad1969!
+storefront_category_search: laundry
+storefront_brand_search: Siemens
+storefront_product_search: Siemens extraKlasse
+storefront_sku_search: SIEWQ45G2D2GB
 
 # Hybris
 hybris_url: https://s.admin.euronics.co.uk/backoffice/login
